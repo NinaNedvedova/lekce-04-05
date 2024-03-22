@@ -5,10 +5,12 @@
 header,
 footer {
 	background: yellowgreen;
+	height: 50px;
 }
 
 aside {
 	background: beige;
+	height: 200px;
 }
 
 nav {
@@ -19,4 +21,18 @@ nav {
 /* tady piš svoje CSS */
 /* -------------------------------------------- */
 
+.main{
+display: flex;
+justify-content: flex-start;
+}
 
+article{
+	flex-grow: 2;
+}
+aside{
+	flex-grow: 1;
+}
+
+nav{
+	flex-grow: 1;
+}

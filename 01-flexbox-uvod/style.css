@@ -21,3 +21,21 @@
 
 /* ---------------------------------------------------- */
 
+.kontejner{
+    display: flex;
+}
+.prvni{
+    flex-grow: 2;
+    order:3;
+}
+.druhy{
+    flex-grow: 1;
+    order: 1;
+}
+.treti{
+    order: 4; 
+}
+
+.ctvrty{
+    order: 2; 
+}

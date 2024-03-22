@@ -5,6 +5,8 @@
 header,
 footer {
 	background: yellowgreen;
+height: 50px;
+width: 500px;
 }
 
 aside {
@@ -13,10 +15,26 @@ aside {
 
 nav {
 	background: lightsteelblue;
+	width: 100px;
+
 }
 
 /* -------------------------------------------- */
 /* tady piš svoje CSS */
 /* -------------------------------------------- */
 
+.menicko{
+	display: flex;
+}
+article{
+	flex-grow: 2;
+}
 
+aside{
+	flex-grow: 1;
+}
+
+.inside{
+	display: flex;
+height: 200px;
+}
